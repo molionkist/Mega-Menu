@@ -1,0 +1,40 @@
+nav>ul {
+    display: flex;
+}
+
+nav li {
+    list-style: none;
+    margin-right: 1em;
+}
+
+nav li a {
+    text-decoration: none;
+}
+
+.menu {
+    display: none;
+    position: absolute;
+    background-color: lightsalmon;
+}
+
+nav>ul>li:hover>.menu {
+    display: block;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.mannu {
+
+    text-align: center;
+    color: blue;
+    font-size: 60px;
+}
+
+nav>ul>li>.mega-menu {
+    display: none;
+}
+
+nav>ul>li:hover>.mega-menu {
+    display: block;
+    background-color: aqua;
+}
